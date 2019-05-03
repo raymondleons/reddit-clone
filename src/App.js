@@ -9,6 +9,7 @@ import { Button } from 'reactstrap'
 // Components
 import NavBar from './components/NavBar'
 import Homepage from './components/Homepage'
+import Help from './components/Help'
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <NavBar/>
           <div>
           <Route exact path="/" component={Homepage} />
+          <Route exact path="/help" component={Help}/>
           </div>
       </div>
       </Router>
