@@ -23,6 +23,9 @@ export default class AddTopic extends Component {
                 <Input type="textarea" name="text" id="exampleText" placeholder="Type your topic here. ." />
                 </Col>
             </Row>
+            <div>
+                <Button color="primary" style={{marginTop:"10px" , marginLeft:"190px"}}>Submit</Button>
+            </div>
         </Form>
       </div>
     )
