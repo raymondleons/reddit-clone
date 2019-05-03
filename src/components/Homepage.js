@@ -72,7 +72,7 @@ class Homepage extends Component {
       <div className="header">
             <h2>Hi, Friends!</h2> <p>What do you want to share on Reddit?</p>
             <hr/>
-            <h6><i>Vote on your favourite topics below. Top topics are shown below (refresh page to reorder after voting!) </i></h6>
+            <h6><i>Vote on your favourite topics below. Top topics are shown below and far left</i></h6>
             <Button color="primary" style={{marginTop:"10px", marginBottom:"10px"}} onClick={this.toggle}> Create a topic</Button>
             <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
             <Form onSubmit={this.submitHandle}>
@@ -86,7 +86,7 @@ class Homepage extends Component {
           />
                 </ModalBody>
                 <ModalFooter>
-                  <Button color="primary" onClick={this.toggle}>Add Topic</Button>{' '}
+                  <Button color="primary" type="submit">Add Topic</Button>{' '}
                   <Button color="secondary" onClick={this.toggle}>Cancel</Button>
                 </ModalFooter>
                </Form>   
