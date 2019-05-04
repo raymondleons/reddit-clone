@@ -1,6 +1,5 @@
 # Reddit Clone with UpVote and DownVotes
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 You can do online test in my Heroku [here](#)
 
@@ -28,3 +27,9 @@ This repo uses a number of open source projects to work properly::
 
 * [Reactstrap](http://reactstrap.github.io/)
 * [Redux](https://github.com/reduxjs/redux)
+
+This repo can also:
+* Using session storage for saving the data, so when browser closed the data will be remove
+
+### Help
+If you need help to run this project, please visit the [help](#) page. I have provided some documentation that can help you to more easily use this project.
