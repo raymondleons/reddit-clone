@@ -1,7 +1,7 @@
 # Reddit Clone with UpVote and DownVotes
 
 
-You can do online test in my Heroku [here](#)
+You can do online test in my Heroku [here](http://reddit-clone-demo.herokuapp.com/)
 
 ### Installation
 
@@ -32,4 +32,4 @@ This repo can also:
 * Using session storage for saving the data, so when browser closed the data will be remove
 
 ### Help
-If you need help to run this project, please visit the [help](#) page. I have provided some documentation that can help you to more easily use this project.
+If you need help to run this project, please visit the [help](http://reddit-clone-demo.herokuapp.com/help) page. I have provided some documentation that can help you to more easily use this project.
