@@ -7,6 +7,8 @@ class Help extends Component {
         <h2><i className="fa fa fa-info-circle" /> Help</h2>
         <p>This page give you information for use this application</p>
         <hr/>
+
+        <h5>First, click button 'Create a topic'</h5>
       </div>
     )
   }
