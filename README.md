@@ -33,3 +33,37 @@ This repo can also:
 
 ### Help
 If you need help to run this project, please visit the [help](http://reddit-clone-demo.herokuapp.com/help) page. I have provided some documentation that can help you to more easily use this project.
+
+### Project Structure
+````
+repo-name/
+  README.md
+  node_modules/
+  package.json
+  public/
+    index.html
+    favicon.png
+  src/
+    actions/
+        topicActions.js
+        types.js
+    assets/
+        img/
+          back_icon.svg
+          help_icon.png
+          logo.png
+        main.scss  
+    components/
+        Help.js
+        Homepage.js
+        Navbar.js
+        Topic.js
+    reducers/
+        index.js
+        topicReducer.js
+    App.js
+    App.test.js
+    index.js
+    serviceWorker.js
+    store.js
+````
